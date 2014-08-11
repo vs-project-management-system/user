@@ -1,0 +1,34 @@
+{
+    "name": "vs-project-management-system/user",
+    "type": "library",
+    "description": "PMS user component. It contains the user components for the pms system",
+    "keywords": [
+        "developer",
+        "client",
+        "user"
+    ],
+    "homepage": "http://pms.daviddurost.net",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "PMS\\Component\\User\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.*-dev"
+        }
+    }
+}
